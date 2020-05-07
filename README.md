@@ -1,2 +1,2 @@
 # PWEB
-Aula de PWEB - 5º Semestre
+Repositório voltado para uso na aulas de PWEB do 5º Semestre
