@@ -1,0 +1,70 @@
+<html5:></html5:>
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atividade 4 - Criando um Jogo</title>
+</head>
+
+<body>
+    <script>  
+        try {
+            var user = prompt("Escolha entre pedra, papel ou tesoura!");
+
+            if (user != "papel" && user != "tesoura" && user !== "pedra" ) {
+                throw "Opção inválida!";
+            }
+
+            var computer = Math.random();        
+
+            if (computer < 0.34) {
+                computer = "pedra";
+            } else if(computer <= 0.67) {
+                computer = "papel";   
+            } else {    
+                computer = "tesoura";
+            }    
+
+            alert("Opção do computador: " + computer);
+            
+            var compare = function (user, computer) {
+                // Empate
+                if (user == computer)
+                    return ("O resultado é um empate!")        
+                // Peda
+                else if (user == "pedra") {
+                    if (computer == "tesoura")
+                        return ("Pedra venceu!")
+                    else {
+                        return ("Papel venceu!")
+                    }
+                }
+                // Tesoura
+                else if (user == "tesoura") {
+                    if (computer == "pedra")
+                        return "Pedra venceu!"
+                    else {
+                        return "Tesoura venceu!"
+                    }
+                }
+                // Papel
+                else if (user == "papel") {
+                    if (computer == "pedra")
+                        return "Papel venceu!"
+                    else {
+                        return "Tesoura venceu!"
+                    }
+                }
+            };        
+                    
+            alert(compare(user, computer));
+        }
+        catch(ex) {
+            alert(ex);
+        }        
+    </script>
+</body>
+
+</html>
