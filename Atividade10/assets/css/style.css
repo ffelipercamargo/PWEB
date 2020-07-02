@@ -1,0 +1,201 @@
+html, body, form, 
+fieldset, p, div, 
+input, textarea {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-family: monospace;
+    color: violet;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    margin: auto;
+    overflow: hidden;
+}
+
+div.boasv {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    left: 50px;
+    text-align: justify;
+    font-family: Verdana;
+    font-size: 16px;
+}
+
+form {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    padding: 15px;
+    align-self: center;
+    left: 50px;
+    border: 1px solid violet;
+    border-style: ridge;
+    border-radius: 4px;
+    position: absolute;
+    box-shadow: 9px 9px 3px darkslategray;
+}
+
+fieldset {
+    margin: auto;
+    width: 520px;
+    height: auto;
+    display: block;
+}
+
+div.label {
+    width: 50px;
+    height: auto;
+    font-size: 15px;
+    text-shadow: 6px 6px 2px royalblue;
+    margin-top: 15px;
+}
+
+div.input {
+    width: 500px;
+    height: auto;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+}
+
+label {
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+
+input {
+    margin: auto;
+    width: 500px;
+    font-size: 15px;
+    height: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: silver;
+    box-shadow: 9px 9px 3px darkslategray;
+}
+
+input.btn {
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 40px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+}
+
+div.radiogr {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+
+div.btn {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline;
+    text-align: center;
+    vertical-align: middle;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+
+label.radio {
+    width: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 15px;
+    float:left;
+    text-shadow: 6px 6px 2px royalblue;
+}
+
+input.radio {
+    width: 20px;
+    margin: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    float:left;
+}
+
+div.text {
+    font-size: 15px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    appearance: none;
+    resize: none;
+    width: 510px;
+    height: 150px;
+    padding: 4px;
+    font-size: 15px;
+    text-align: justify;
+    background-color: silver;
+    border-radius: 4px;
+    box-shadow: 9px 9px 3px darkslategray;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+h1 {
+    display: inline-block;
+    padding-left: 50px;
+    line-height: 28px;
+    font-family: arial;
+    font-size: 26px;
+    width: auto;
+    height: 100%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    text-shadow: 6px 6px 3px royalblue;
+}
+
+h3 {
+    text-shadow: 6px 6px 3px royalblue;
+}
+
+p {
+    margin: auto;
+    display: inline;
+    padding: 5px;
+    margin-top: 5px;
+    line-height: 18px;
+    font-size: 15px;
+    text-shadow: 6px 6px 3px royalblue;
+}
